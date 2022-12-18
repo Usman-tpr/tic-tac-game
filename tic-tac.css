@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+   height: 50px;
+   align-items: center;
+
+}
+nav ul li{
+    list-style-type: none;
+    font-size: x-large;
+    padding: 0 20px;
+}
+
+#welcome{
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+.container{
+  
+ margin-top: 30px;
+   display: grid;
+   justify-content: center;
+   grid-template-columns: repeat(3 ,8vw);
+   grid-template-rows: repeat(3,8vw);
+   
+  
+
+
+}
+.forimage
+{
+    background-image: url("https://media2.giphy.com/media/uorQsT7MXSQjJfeDvs/giphy.gif?cid=ecf05e47abdd4p3zwq9o2gtlvv11dkejkxiqau6sl44vj5y8&rid=giphy.gif&ct=g");
+    background-size: contain;
+}
+
+.box{
+    
+ border: 2px solid black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+   
+   
+}
+.gamecontainer{
+    display: flex;
+    justify-content: center;
+
+}
+.box:hover{
+    background-color: rgb(250, 218, 218);
+}
+.br{
+    border-left: 0;
+}
+.bt{
+    border-top: 0;
+}
+.bl{
+    border-right: 0;
+}
+.bb{
+    border-bottom: 0;
+}
+.box span{
+    font-size: 5vw;
+    font-family: roboto,sans-serif;
+}
+
+.gameinfo{
+    margin-top: 60px;
+}
+#cong{
+    background-color: yellow;
+    color: green;
+}
